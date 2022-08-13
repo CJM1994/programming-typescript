@@ -9,5 +9,8 @@
     "ecmaVersion": "latest"
   },
   "plugins": ["@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "no-console": "off"
+  },
+  "ignorePatterns": ["dist"]
 }

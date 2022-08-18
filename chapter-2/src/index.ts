@@ -15,5 +15,5 @@ const g: { apple: number; banana: number } = {
   apple: e,
   banana: f,
 };
-const h: number = g.banana;
+const h: number = g.banana * 8;
 console.log(e, f, g, h);
